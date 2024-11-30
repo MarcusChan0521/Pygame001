@@ -6,23 +6,32 @@
 
 ### 配置 Python 环境
 
-请确保您的计算机上已安装 **Python 3.10** 或更高版本。您可以使用以下命令检查您的 Python 版本：
+1. 确保您的计算机上已安装 **Python 3.10** 或更高版本。
+2. 使用以下命令检查您的 Python 版本：
 
-```bash
-python --version
-如果尚未安装，请前往 Python 官网 下载并安装最新版本的 Python。
+    ```bash
+    python --version
+    ```
 
-安装 Pygame Zero
-使用以下命令安装 Pygame Zero：
+3. 如果尚未安装，请前往 [Python 官网](https://www.python.org/downloads/) 下载并安装最新版本的 Python。
 
-bash
-复制代码
-pip install pgzero
-运行游戏
-在命令行中，导航到游戏脚本所在的目录，然后运行以下命令启动游戏：
+### 安装 Pygame Zero
 
-bash
-复制代码
-pgzrun alien2.py
-引用
-本游戏引用了 Pygame Zero 官网的图片素材和音效素材，特此致谢。
+1. 使用以下命令安装 Pygame Zero：
+
+    ```bash
+    pip install pgzero
+    ```
+
+## 运行游戏
+
+1. 在命令行中，导航到游戏脚本所在的目录。
+2. 使用以下命令启动游戏：
+
+    ```bash
+    pgzrun alien2.py
+    ```
+
+## 引用
+
+本游戏引用了 **Pygame Zero** 官网的图片素材和音效素材，特此致谢。
